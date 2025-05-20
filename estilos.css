@@ -1,0 +1,108 @@
+*{  margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+color: azure;}
+body {
+       display: flex;
+       justify-content: center;
+       padding: 55px;}
+.cart{
+      background: linear-gradient(to bottom,rgb(1, 175, 243),rgb(1, 56, 6) );
+      width: 350px;
+      border-radius: 35px;
+      -webkit-border-radius: 35px;
+      -moz-border-radius: 35px;
+      -ms-border-radius: 35px;
+      -o-border-radius: 35px;
+      box-shadow: 5px 4px 17px -6px rgba(2, 56, 6, 0.75)
+      
+      }
+
+.banner{ border-radius: 20px 20px 0 0;
+         width: 100%;} 
+.cart-contnet{
+  padding: 30%;
+  align-items: center;
+  flex-direction: column;
+  background-color: none;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: azure;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.cart-contnet h2{text-align: center;
+font-size: x-large;}
+.cart-contnet p{text-align: center; font-size: larger;}
+
+.cart-contnet img{
+    width: 30px;
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.cart-contnet-price{  
+ 
+  background-color: none;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+gap: 10px;
+color: aliceblue;
+   
+   
+}   
+.cart-contnet-price img{
+    width: 40px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}      
+.cart-content-price a {
+    display: flex;
+    font-weight: bold;
+    
+   }
+
+button {
+  display: block;
+  margin: 0px auto;
+  width: 150px;
+  padding: 10px 16px;
+  border-radius: 20px;
+  border:black;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.btn-payment {
+  background-color: rgb(8, 112, 103);
+  color: rgb(253, 251, 250);
+  
+  
+}
+
+.btn-cancel {
+  color: rgb(252, 250, 251);
+background-color: rgb(8, 95, 110);}
